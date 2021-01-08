@@ -7,6 +7,8 @@
 ________("Hello, Python!")
 
 (A) print   (B) printf   (C) printline   (D) printn
+
+(A) print 
 ```
 ```
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
@@ -16,6 +18,8 @@ __這是一行註解
 print("Hello, Python!")
 
 (A)	/   (B) -   (C) #   (D) <!-->
+
+ (C) # 
 ```
 ```
 3.要新建一個變數名稱為school，並將變數值設定為ksu，底下程式需填入:
@@ -24,7 +28,9 @@ print("Hello, Python!")
 (1)______ = “(2)______”
 
 (A) (1)ksu，(2)school    (B) (1) school，(2) ksu  
-(C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
+(C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school” 
+
+(B) (1) school，(2) ksu 
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
@@ -35,6 +41,7 @@ print(______(y))
 
 (A) str   (B) sum   (C) int   (D)type
 
+(D)type
 ```
 ```
 5.試問以下程式執行後輸出什麼:
@@ -44,6 +51,8 @@ y = 65535
 print(type(y))
 
 (A) <class 'int'>  (B) <class 'str'>  (C) <class 'float'>  (D) <class 'tuple'>
+
+(A) <class 'int'>
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
@@ -53,6 +62,8 @@ x = 65535
 ______(x)
 
 (A) long   (B) str   (C) float   (D)int
+
+(B) str
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
@@ -62,6 +73,8 @@ string1 = "Hello, Python!"
 print(___________(string1))
 
 (A) find   (B) len   (C) count   (D)replace
+
+(B) len
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
@@ -70,6 +83,8 @@ print(___________(string1))
 print(100 < 200)
 
 (A) False   (B) True   (C) 100   (D) 200
+
+(B) True 
 ```
 # 2.資料型態及其運算 DataType
 ```
@@ -81,6 +96,8 @@ a = ___________
 (B) 1.0
 (C) 100 / 10
 (D) 1.0 * 1.0
+
+(A) 1
 ```
 ```
 10.試問以下程式執行後輸出什麼結果:
@@ -92,6 +109,8 @@ print(a)
 (B) 100
 (C) False
 (D) True
+
+(D) True
 ```
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
@@ -100,6 +119,8 @@ a = 100
 print(_______(a))
 
 (A) any   (B) type   (C) complex   (D) bin
+
+(B) type
 ```
 ```
 12.試問以下程式執行後輸出什麼結果:
@@ -108,6 +129,8 @@ a = “Python!”
 print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
+
+(A) str
 ```
 ```
 13.試問以下程式執行後輸出什麼結果:
@@ -116,6 +139,8 @@ a = ("Python", True, 1234)
 print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
+
+(D) tuple
 ```
 ```
 14.試問以下程式執行後輸出什麼結果:
@@ -124,6 +149,8 @@ a = ["Python", "True", "1234"]
 print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
+
+(C) list
 ```
 ```
 15.試問以下程式執行後輸出什麼結果:
@@ -132,6 +159,8 @@ a = {"name" : "Eric", "age" : 90}
 print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
+
+(B) dict
 ```
 ## 字串1
 ```
@@ -145,6 +174,8 @@ print(a)
 (B) <Hello Python>
 (C) [Hello Python]
 (D) {"Hello Python"}
+
+(A) "Hello Python"
 ```
 ```
 17.試問以下程式執行後輸出什麼結果:
@@ -154,6 +185,8 @@ a = "Hello, World!"
 print(a[1])
 
 (A) H   (B) e   (C) l   (D) 1
+
+(B) e 
 ```
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
@@ -163,6 +196,8 @@ a = "Hello, World!"
 print(a[__________])
 
 (A) 4:6   (B) 3:5   (C) 2:5   (D) llo
+
+(C) 2:5
 ```
 ```
 19.試問以下程式執行後輸出什麼結果:
@@ -174,6 +209,8 @@ print(a.strip())
 (B)        HelloPython
 (C) HelloPython         
 (D) H e l l o P y t h o n
+
+(A) HelloPython (C) HelloPython  
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
@@ -185,6 +222,8 @@ print(x)
 (A) is
 (B) on
 (C) ==
+(D) in
+
 (D) in
 ```
 ```
@@ -198,6 +237,8 @@ print(__________)
 (B) a + b
 (C) ab
 (D) a,b
+
+(B) a + b
 ```
 ```
 22.試問以下程式執行後輸出什麼結果:
@@ -210,6 +251,8 @@ print(a + b)
 (B) a + b
 (C) 100 Kun Shan
 (D) TypeError
+
+(A) Kun Shan100
 ```
 ## 字串2
 ```
@@ -223,6 +266,8 @@ print(a.format(b))
 (B) Kun Shan University
 (C) University Kun Shan
 (D) University
+
+(B) Kun Shan University
 ```
 ```
 24.試問以下程式執行後輸出什麼結果:
@@ -235,48 +280,58 @@ print(a.format(b,‘Hello’))
 (B) University Kun Shan Hello
 (C) {1} Kun Shan {0}
 (D) b,‘Hello’
+
+(A) Hello Kun Shan University
 ```
 ```
 25.試問若以下程式執行後要輸出一對雙引號需填入什麼:
 #!/usr/bin/python3
-a = “_____________”
+a = '_____________'
 print(a)
 
 (A) “”
 (B) <””>
 (C) \"\"
 (D) [“”]
+
+(A) “”
 ```
 ```
 26.要在螢幕輸出字串的長度  底下程式需使用哪個函數:
 #!/usr/bin/python3
-a = “Kun Shan”
+a = 'Kun Shan'
 print(_______)
 
 (A) len(a)
 (B) length(a)
 (C) abs(a)
 (D) int(a)
+
+(A) len(a)
 ```
 ```
 27.試問要英文字母轉為大寫以下程式需填入什麼:
 #!/usr/bin/python3
-a = “Python”
+a = 'Python'
 print(__________)
 
 (A) a. isupper()
 (B) a. islower()
 (C) a.upper()
 (D) a.lower()
+
+(C) a.upper()
 ```
 ```
 28.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
-print(“%s Python! %d” % (“Hello”,123))
+print('%s Python! %d' % ('Hello',123))
 
 (A) “%s Python! %d” % (“Hello”,123)
 (B) 123 Python! Hello
 (C) %s Python! %d
+(D) Hello Python! 123
+
 (D) Hello Python! 123
 ```
 ```
@@ -289,6 +344,8 @@ print(a)
 (B) replace(“x”,”o”)
 (C) “Hellx Pythxn!”
 (D) format(“o”,”x”)
+
+(A) replace(“o”,”x”)
 ```
 # 3.選擇結構1
 ```
@@ -301,6 +358,8 @@ if None:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(A) 沒有任何輸出
 ```
 ```
 31.
@@ -312,6 +371,8 @@ if 1:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 32.
@@ -323,6 +384,8 @@ if 100:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 33.
@@ -334,6 +397,8 @@ if 0:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(A) 沒有任何輸出
 ```
 ```
 34.
@@ -345,6 +410,8 @@ if 100 == “100”:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(A) 沒有任何輸出
 ```
 ```
 35.
@@ -356,6 +423,8 @@ if 100 == 100:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ```
 36.
@@ -367,6 +436,8 @@ if 100 >= 1:
 (B) 語法錯誤
 (C) Hello
 (D) False
+
+(C) Hello
 ```
 ## 選擇結構2
 ```
@@ -383,6 +454,8 @@ else:
 (B) a != b
 (C) a
 (D) b
+
+(A) a == b、a < b、a <= b
 ```
 ```
 38.
@@ -395,6 +468,8 @@ print("A") if a > b else print("B")
 (B) a
 (C) B
 (D) A
+
+(C) B
 ```
 ```
 39.
@@ -407,6 +482,8 @@ print("A") if a > b else print("B") if a != b else print("!=")
 (B) !=
 (C) B
 (D) 語法錯誤
+
+(C) B
 ```
 ```
 40.
@@ -421,6 +498,8 @@ if a > b ___ c > a:
 (B) not
 (C) or
 (D) and
+
+沒答案
 ```
 ```
 41.
@@ -435,6 +514,8 @@ if b > a:
 (B) return 0
 (C) return True
 (D) break
+
+沒答案
 ```
 ```
 42.
@@ -450,6 +531,8 @@ if x >= 10:
 (B) 1
 (C) 2
 (D) 0
+
+(C) 2
 ```
 ```
 43.
@@ -469,6 +552,8 @@ elif a == b:
 (B) 2
 (C) 1
 (D) 沒有任何結果
+
+(D) 沒有任何結果
 ```
 ## List
 ```
@@ -480,6 +565,8 @@ cat = ______
 (B) {'a': 1, 'b': 2, 'b': '3'}
 (C) new cat;
 (D) list()
+
+(A) [“Python”,”C”,”JAVA”,” Assembly”]
 ```
 ```
 45.
@@ -490,6 +577,8 @@ print(__________)
 (A) thisislist(3)
 (B) thisislist(2)
 (C) thisislist[3]
+(D) thisislist[2]
+
 (D) thisislist[2]
 ```
 ```
@@ -502,6 +591,8 @@ print(thisislist[-4])
 (B) 2
 (C) 3
 (D) 4
+
+(B) 2
 ```
 ```
 47.
@@ -513,6 +604,8 @@ print(thisislist[_________])
 (B) 1:3
 (C) 1-4
 (D) 1-3
+
+(A) 1:4
 ```
 ```
 48.
@@ -524,6 +617,8 @@ print(thisislist[-5:-3:2])
 (B) 2
 (C) 3
 (D) 4
+
+(A) 1
 ```
 ```
 49.
@@ -536,6 +631,8 @@ print(thisislist)
 (B) thisislist(3)
 (C) thisislist[4]
 (D) thisislist[3]
+
+(C) thisislist[4]
 ```
 ```
 50.
@@ -547,6 +644,8 @@ __________
 (B) thisislist.add(6)
 (C) thisislist.insert(6)
 (D) thisislist[5] = 6
+
+(B) thisislist.add(6)
 ```
 ## Dictionary 資料型態
 ```
@@ -558,6 +657,8 @@ thisisdict = ________
 (B) {'a': 1, 'b': 2, 'c': 3}
 (C) dict()
 (D) 123456
+
+(A) [“Python”,”C”,”JAVA”,” Assembly”]
 ```
 ```
 52.
@@ -570,6 +671,8 @@ print(x)
 (B) thisisdict["2"]
 (C) thisisdict["b"]
 (D) thisisdict[b]
+
+(C) thisisdict["b"]
 ```
 ```
 53.
@@ -582,30 +685,36 @@ print(thisisdict)
 (B) thisisdict["2"]
 (C) thisisdict["b"]
 (D) thisisdict[b]
+
+(C) thisisdict["b"]
 ```
 ```
 54.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
-if “3” in thisisdict:
-   print(“Yes”)
+if '3' in thisisdict:
+   print('Yes')
 以上程式碼輸出的結果是？
 
 (A) Yes
 (B) No
 (C) True
+(D) 沒有輸出結果
+
 (D) 沒有輸出結果
 ```
 ```
 55.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
-if “a” in thisisdict:
-   print(“Yes”)
+if 'a' in thisisdict:
+   print('Yes')
 以上程式碼輸出的結果是？
 
 (A) Yes
 (B) No
 (C) True
 (D) 沒有輸出結果
+
+(A) Yes
 ```
 
 ```
